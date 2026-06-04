@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # 1. Initialize web page title configuration rules
 st.set_page_config(page_title="News Article Topic Clustering", page_icon="📰", layout="centered")
 
-st.title("Group 42: News Article Topic Clustering App 🚀")
+st.title("News Article Topic Clustering App")
 st.write("Paste a raw news article below. Our trained Agglomerative Hierarchical model will determine its cluster stream automatically.")
 
 # 2. Use caching to load the large model assets ONLY ONCE into memory
@@ -24,11 +24,11 @@ except FileNotFoundError:
 
 # 3. Establish custom explicit string headers for your cluster labels
 topic_mapping = {
-    0: "Business & Finance 📈",
-    1: "Education & Academy 🎓",
+    0: "Technology & Innovation 💻",
+    1: "Sports & Athletics ⚽",
     2: "Entertainment & Media 🎬",
-    3: "Sports & Athletics ⚽",
-    4: "Technology & Innovation 💻"
+    3: "Education 🎓",
+    4: "Business & Finance 📈"
 }
 
 # 4. Draw the frontend input box widget
