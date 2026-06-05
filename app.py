@@ -36,10 +36,10 @@ topic_mapping = {
 # Explicit keyword anchors tailored precisely to your mapping indices
 keyword_seeds = {
     0: ["technology", "innovation", "software", "ai", "app", "data", "tech", "computer", "device", "systems"],
-    1: ["sports", "athletics", "match", "game", "team", "player", "champions", "league", "equalizer", "red card", "draw", "stadium"],
-    2: ["entertainment", "media", "movie", "film", "actor", "hollywood", "show", "music", "star", "cinema", "celebrity"],
-    3: ["education", "academy", "university", "school", "student", "research", "professor", "degree", "campus", "gusa"],
-    4: ["business", "finance", "market", "economy", "stock", "dollar", "company", "revenue", "invest", "profit", "trade"]
+    1: ["sports", "athletics", "match", "game", "team", "player", "champions", "league", "equalizer", "red card", "draw", "stadium","football"],
+    2: ["entertainment", "media", "movie", "film", "actor", "hollywood", "show", "music", "star", "cinema", "celebrity","song"],
+    3: ["education", "academy", "university", "school", "student", "research", "professor", "degree", "campus", "admission","teacher","course","studies","international admission","scholarship"],
+    4: ["business", "finance", "market", "economy", "stock", "dollar", "company", "revenue", "invest", "profit", "trade", "shares", "money", "currency","bank","exchange rate"]
 }
 
 # 4. Draw the frontend input box widget
