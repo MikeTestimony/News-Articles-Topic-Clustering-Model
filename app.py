@@ -8,7 +8,21 @@ st.set_page_config(page_title="News Article Topic Clustering", page_icon="📰",
 # 2. Your original title and sub-writings
 st.title("News Article Topic Clustering App")
 st.write("Paste a raw news article below. Our trained model will determine its cluster stream automatically.")
-
+# Custom CSS to change the button color to deep blue instead of red
+st.markdown("""
+    <style>
+    div.stButton > button:first-child {
+        background-color: #1E3A8A !important;
+        color: white !important;
+        border: 1px solid #1E3A8A !important;
+    }
+    div.stButton > button:first-child:hover {
+        background-color: #3B82F6 !important;
+        border: 1px solid #3B82F6 !important;
+        color: white !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
 # 3. Use caching to load the large model assets ONLY ONCE into memory
 @st.cache_resource
 def load_assets():
