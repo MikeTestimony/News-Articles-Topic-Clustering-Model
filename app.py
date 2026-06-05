@@ -71,5 +71,5 @@ if st.button("Analyze & Assign Cluster"):
             topic_name = topic_mapping.get(predicted_cluster, f"Cluster Group {predicted_cluster}")
             
             # Step 5d: Output the results cleanly to the screen
-            st.success(f"**Target Allocation Result:** {topic_name}")
+            st.success(f"**News Category:** {topic_name}")
             st.info("Note: This classification was determined via feature similarity mapping back to the Hierarchical Cluster tree.")
