@@ -6,7 +6,7 @@ import numpy as np
 st.set_page_config(page_title="News Article Topic Clustering", page_icon="📰", layout="centered")
 
 # 2. Your original title and sub-writings
-st.title("News Article Topic Clustering App")
+st.title("News Topic Clustering App")
 st.write("Paste a raw news article below. Our trained model will determine its cluster stream automatically.")
 # Custom CSS to change the button color to deep blue instead of red
 st.markdown("""
