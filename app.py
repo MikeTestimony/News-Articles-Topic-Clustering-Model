@@ -6,7 +6,7 @@ import numpy as np
 st.set_page_config(page_title="News Article Topic Clustering", page_icon="📰", layout="centered")
 
 st.title("News Article Topic Clustering App")
-st.write("Paste a raw news article below. Our trained model will determine its cluster stream automatically.")
+st.write("Paste a raw news article below. Our trained Agglomerative Hierarchical model will determine its cluster stream automatically.")
 
 # 2. Use caching to load the large model assets ONLY ONCE into memory
 @st.cache_resource
@@ -30,7 +30,7 @@ topic_mapping = {
     1: "Sports ⚽",
     2: "Entertainment & Media 🎬",
     3: "Education 🎓",
-    4: "Business 📈"
+    4: "Business  📈"
 }
 
 # Explicit keyword anchors tailored precisely to your mapping indices
